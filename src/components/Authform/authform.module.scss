@@ -1,0 +1,66 @@
+@import '../../styles/config';
+
+.root {
+	width: 50%;
+	margin: auto;
+	padding-top: 10%;
+}
+
+.form {
+	background-color: rgba(54, 175, 163, 0.01);
+	border: 0.1em solid $principal-1;
+	padding: 1em;
+	border-radius: 1em;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	box-shadow: 0.1em 0.1em 0.4em 0.3em rgba(65, 64, 64, 0.103);
+}
+
+.row {
+	width: 80%;
+}
+.half {
+	width: 45%;
+}
+
+.input {
+	display: block;
+	width: 100%;
+	border: 0.1em solid rgba(128, 128, 128, 0.377);
+	border-radius: 0.5em;
+	padding: 0.2em;
+	transition: 0.1s all;
+	&:focus {
+		border: 0.1em solid $principal;
+	}
+}
+
+.flex {
+	display: flex;
+}
+
+.grow {
+	flex: 1;
+}
+
+.label {
+	font-size: 0.7em;
+	font-family: $comfortaa-font;
+	color: $principal-1;
+}
+
+.btn {
+	background-color: $principal;
+	margin: 0.6em;
+	border: none;
+	border-radius: 0.6em;
+	text-decoration: none;
+	font-family: $comfortaa-font;
+	padding: 0.5em 0.8em;
+	color: white;
+	&:hover {
+		color: white;
+	}
+}

@@ -1,0 +1,21 @@
+@import './config';
+
+.dfl-font {
+	font-family: $comfortaa-font;
+}
+
+.border-1-black {
+	border: 0.1em solid $border-black;
+}
+
+.alt-font {
+	font-family: $poiret-font;
+}
+
+.lgh-font {
+	color: white;
+}
+
+.dr-font {
+	color: $principal-1;
+}

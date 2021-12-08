@@ -1,0 +1,61 @@
+@import '../../styles/config';
+
+.root {
+	padding-block: 0.2em;
+	background-color: white;
+	width: 100%;
+	padding-inline: 1em;
+	padding-block: 0.5em;
+	display: flex;
+	align-items: center;
+	border-bottom: 0.1em solid $principal-oo;
+}
+
+.logo {
+	font-size: 2em;
+	color: $principal;
+	font-family: $poiret-font;
+	text-decoration: none;
+	&:hover {
+		color: $principal;
+	}
+}
+
+.logoImg {
+	width: 100%;
+}
+
+.grow {
+	flex: 1;
+}
+
+.navList {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.navItem {
+	margin: 0.3em;
+}
+
+.btn {
+	background-color: $principal;
+	border: none;
+	border-radius: 0.6em;
+	text-decoration: none;
+	font-family: $comfortaa-font;
+	padding: 0.5em 0.8em;
+	color: white;
+	&:hover {
+		color: white;
+	}
+}
+
+.btnAlt {
+	border: 0.1em solid $principal-1;
+	border-radius: 0.6em;
+	font-family: $comfortaa-font;
+	padding: 0.5em 0.8em;
+	color: $principal-1;
+}
